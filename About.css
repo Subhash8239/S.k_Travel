@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  span {
+    font-size: 0.9rem;
+    color: #757373;
+  }
+  
+  /* Navigation */
+  nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+  }
+  
+  nav h1 {
+    font-size: 30px;
+    color: rgb(35, 35, 85);
+    cursor: pointer;
+    font-weight: 700;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav .nav-links {
+    display: flex;
+  }
+  
+  nav .fa {
+    display: none;
+  }
+  nav .nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav .nav-links ul li {
+    list-style: none;
+    margin-left: 30px;
+  }
+  
+  nav .nav-links ul li a {
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  nav .nav-links ul li a.active,
+  nav .nav-links ul li a:hover {
+    color: #fdc93b;
+  }
+  
+  .carousel-img {
+    height: 700px;
+    width: 100%;
+  }
+  .crausal-h1{
+      margin-bottom: 250px;  
+  }
+  
+  .Book-btn {
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color:white;
+    position: relative;
+    cursor: pointer;
+  }
+  .Discover-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: yellowgreen;
+    position: relative;
+    cursor: pointer;
+  }
+  .footer_area{
+    margin-top: 40px;
+    height: 50vh;
+    background-color: rgb(14, 30, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  footer{
+    width: 90%;
+  }
+  .logo_footer{
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .logo_footer span{
+    color: yellow;
+  }
+  footer h3{
+    color: rgb(143, 142, 142);
+    font-size: 23px;
+    margin: 17px 0px;
+  }
+  .para_footer{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 24px;
+    font-weight: 400;
+    margin: 7px 0px;
+  }
+  .para_footer_2{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+  }
+  .blogs_section_footer{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 36px;
+  }
+  .blogs_footer{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .blog_title{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .para_blogs_footer{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 14px 0px;
+  }
+  .links_items_footer{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.4s ease;
+  }
+  .links_items_footer ul li a{
+    color: white;
+  }
+  .links_items_footer span{
+    padding: 0px 4px;
+    font-size: 13px;
+  }
+  .links_items_footer:hover{
+    letter-spacing: 2px;
+  }
+  @media (max-width: 769px) {
+    .nav-links {
+      position: fixed;
+      top: 0;
+      right: -250px;
+      width: 220px;
+      height: 100vh;
+      background: rgba(17, 20, 104, 0.45);
+      backdrop-filter: blur(4.5px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      transition: 0.3s ease;
+    }
+    nav h1 {
+      font-size: 15px;
+    }
+  
+    nav .fa {
+      display: block;
+      font-size: 22px;
+      cursor: pointer;
+    }
+  
+    nav .nav-links ul {
+      display: block;
+    }
+  
+    nav .nav-links ul.active {
+      right: 0;
+    }
+    nav .nav-links ul li {
+      padding: 20px 0 20px 40px;
+      margin-left: 0;
+    }
+    nav .nav-links ul li a {
+      color: #fff;
+    }
+  }    
