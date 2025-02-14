@@ -215,4 +215,11 @@
     nav .nav-links ul li a {
       color: #fff;
     }
-  }    
+  }
+  
+  @media (max-width:1320px){
+    .home_section ,.about ,.services_area, .destination ,.testimonials ,.footer_area{
+      width: 100%;
+      height: auto;
+    }
+  }
