@@ -172,6 +172,9 @@
     padding: 0px 4px;
     font-size: 13px;
   }
+  .m-2{
+    list-style-type: none;
+  }
   .links_items_footer:hover{
     letter-spacing: 2px;
   }

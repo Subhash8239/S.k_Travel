@@ -206,6 +206,9 @@
     padding: 0px 4px;
     font-size: 13px;
   }
+  .m-2{
+    list-style-type: none;
+  }
   .links_items_footer:hover{
     letter-spacing: 2px;
   }
@@ -261,5 +264,12 @@
     }
     #blog-container .blogs {
       width: 100%;
+    }
+  }
+
+  @media (max-width:1320px){
+    .home_section ,.about ,.services_area, .destination ,.testimonials ,.footer_area{
+      width: 100%;
+      height: auto;
     }
   }
