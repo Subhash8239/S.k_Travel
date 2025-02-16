@@ -111,7 +111,7 @@ nav .nav-links ul li a:hover {
     height: 180px;
     margin: auto;
     position: absolute;
-    bottom: -90px;
+    bottom: -50px;
     border-radius: 8px;
     background-color: white;
     box-shadow: 2px 2px 11px rgba(128, 128, 128, 0.25);
