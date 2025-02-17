@@ -148,7 +148,7 @@ nav .nav-links ul li a:hover {
 }
 
 .about {
-  margin-top: 50px;
+  margin-top: 90px;
   width: 100%;
   height: 86vh;
   display: flex;
@@ -185,6 +185,7 @@ nav .nav-links ul li a:hover {
   color: rgba(0, 0, 0, 0.65);
   line-height: 37px;
 }
+
 .images_container {
   width: 100%;
   height: 100%;
@@ -365,29 +366,5 @@ footer h3 {
   .footer_area {
     width: 100%;
     height: auto;
-  }
-  .heading_about {
-    font-size: 40px;
-    line-height: 55px;
-  }
-  .image_hotel_1 {
-    display: inline-block;
-    width: 90%;
-    height: 85%;
-  }
-  .image_hotel_2 {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-  }
-  .image_hotel_3 {
-    display: inline-block;
-    width: 70%;
-    height: 60%;
-  }
-  .image_hotel_4 {
-    display: inline-block;
-    width: 90%;
-    height: 80%;
   }
 }
