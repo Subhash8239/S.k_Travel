@@ -99,7 +99,11 @@ nav .nav-links ul li a:hover {
   position: relative;
   cursor: pointer;
 }
-
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
 .about-us {
   width: 80%;
   margin: auto;
