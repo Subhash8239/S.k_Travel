@@ -265,6 +265,9 @@ footer h3 {
   nav .nav-links ul li a {
     color: #fff;
   }
+  .row {
+    flex-direction: column;
+}
 }
 
 @media (max-width: 1320px) {
