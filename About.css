@@ -391,8 +391,3 @@ footer h3 {
     height: 80%;
   }
 }
-@media (max-width: 992px) {
-.about {
-  margin-top: 250px;
-}
-}
